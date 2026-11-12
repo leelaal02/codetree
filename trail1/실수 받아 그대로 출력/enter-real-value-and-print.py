@@ -1,6 +1,7 @@
 N = float(input())
 
 if 0 <=N<= 50:
+#   print(N)           # 22.4567
 #   print(f"{N}")      # 22.4567
     print(f"{N:.2f}")  # 22.46
 
