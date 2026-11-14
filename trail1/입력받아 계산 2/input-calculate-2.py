@@ -2,7 +2,7 @@
 split()
 문자열을 특정 기준으로 잘라주는 함수
 공백 기준으로 문자열을 잘라, 잘려나간 단위가 하나의 원소 되어, 해당 원소를 가지고 있는 하나의 list 만들어짐
-print(a.split())
+print(a.split())    ['3', '2']
 arr = a.split()
 
 list: 여러 원소를 들고 있는 묶음
@@ -19,7 +19,7 @@ input().split()
 
 
 ab = input()
-a, b = ab.split()
+a, b = ab.split() 
 a, b = int(a), int(b)
 print(a*b)
 
